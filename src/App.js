@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+// import FormLoginRegister from "./component/FormLoginRegister";
+// import FormRegister from "./component/FormLoginRegister/FormRegister";
+import FormUsers from './component/FormUsers/index';
+
 
 function App() {
   return (
-   <h1>
-    TEST
-   </h1>
+ <FormUsers/>
   );
 }
 
